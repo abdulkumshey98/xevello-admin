@@ -1,0 +1,38 @@
+.sidenav{
+  background-color: #f0f0f0;
+}
+
+.sidenav::-webkit-scrollbar {
+  display: none;
+}
+
+.side-logo {
+  width: 40px;
+  cursor: pointer;
+}
+
+.side-hr {
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.menu-title {
+  font-size: 7pt;
+  text-transform: uppercase;
+  text-align: left;
+  color: black;
+}
+
+
+.sidemenu>li>a {
+  font-size: 9.5pt;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  padding: 12px 10px;
+  padding-left: 0px;
+}
+
+.sidemenu>li>a>span {
+  margin-right: 12px;
+  font-size: 14pt;
+}
